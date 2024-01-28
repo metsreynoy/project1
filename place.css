@@ -1,0 +1,67 @@
+
+
+body{
+    text-align: center;
+}
+.place1{
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.959);
+}
+ .place{
+     width: 100%;
+     margin: 0px;
+     padding: 0;
+     
+ }
+ 
+.place p{
+    width:100%;
+    text-align: center;
+       font-size:large ; 
+}
+.place{
+   border: 1px solid green;
+   margin: 50px;
+   background-color: rgba(128, 128, 128, 0.445);
+}
+.place img{
+      width: 30%;
+      height: 50%;
+}
+.place2 img{
+     width: 50px;
+     height: 250px;
+}
+.kompot p{
+    font-size: xx-large;
+    font-family: serif;
+      font-weight: bolder;
+      color: gold;
+}
+.place1 p{
+    font-size: xx-large;
+    color: green;
+}
+@media(max-width:1200px){
+    .place p{
+        width:100%;
+        text-align: center;
+           font-size:x-large ; 
+           color :blueviolet;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+ @media(max-width:1200px){
+.picture img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ }
+ .picture img{
+    width: 50%;
+    margin: 0;
+ }
